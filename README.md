@@ -122,6 +122,12 @@ jasmine-node 2.x has no such hooks that I'm aware of for loading helpers, in thi
 require('jasmine-expect');
 ```
 
+If you are using EMCAScript 6, you can import the default module:
+
+```javascript
+import matchers from "jasmine-expect";
+```
+
 ### Sublime Text
 
 [Jasmine-Matchers-Snippets](https://github.com/JamieMason/Jasmine-Matchers-Snippets) can be installed with [Package Control](https://packagecontrol.io/packages/Jasmine%20Matchers%20Snippets) to ease development with Jasmine Matchers in Sublime Text.
